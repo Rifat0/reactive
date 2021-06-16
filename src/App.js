@@ -1,11 +1,16 @@
-import Clock from './components/Clock';
+// import Clock from './components/Clock';
+// import ClockList from './components/ClockList';
+// import Form from './components/Form';
+import Calculator from './components/Calculator';
 
-function App() {
+export default function App() {
+    // const quantity = [1, 2, 3];
     return (
-        <div>
-            <Clock locale="bn-BD" />
-        </div>
+        <>
+            {/* <Clock />
+            <ClockList quantity={quantity} /> */}
+            {/* <Form /> */}
+            <Calculator />
+        </>
     );
 }
-
-export default App;
